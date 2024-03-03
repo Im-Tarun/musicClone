@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rythmix.css">
+    <link rel="stylesheet" href="utility.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Rythmix</title>
+</head>
+<body class="black-bg">
+    <main class="flex-box">
+            
+    <!-- left aside section of the page  -->
+    <aside class="page-left-aside black-bg br-rd-8 flex-box">
+
+        <!-- top box of left aside-->
+        <div class="home-container font-1-2 grey-bg br-rd-8">
+            <div class="top-boxes logo-box "><img  src="logo.svg" alt="Rythmix"></div>
+            <div class="top-boxes home-box "><i class='bx icon icon-margin bxs-home'></i><span class="weight-500">Home</span></div>
+            <div class="top-boxes search-box "><i class='bx icon icon-margin bx-search-alt-2' ></i><span class="weight-500">Search</span></div>
+        </div>
+
+        <!-- bottom box of left aside -->
+        <div class="library-container grey-bg br-rd-8 flex-box">
+
+            <!-- header of bottom box  -->
+            <header style="padding: 15px 25px; align-items: center;" class="lib-heading flex-box">
+                <i class='bx icon icon-margin bx-library'></i>
+                <span>Library</span>
+            </header>
+        
+            <!-- //content  -->
+            <div class="song-container">
+                
+            </div>
+
+            <!-- fotter of bottom box -->
+            <footer class="left-cont-footer ">        
+                <div class="foot-text">
+                    <a href="#">Legal</a>
+                </div>
+                <div class="foot-text">
+                    <a href="#">Safety &amp; Privacy Center</a>
+                </div>
+                <div class="foot-text">
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="foot-text">
+                    <a href="#">Cookies</a>
+                </div>
+                <div class="foot-text">
+                    <a href="#">About Ads</a>
+                </div>
+                <div class="foot-text">
+                    <a href="#">Accessibility</a>
+                </div>                     
+            </footer>
+            
+        </div>
+    </aside>
+
+    <!-- main section of the page  -->
+    <section class="page-right-section grey-bg br-rd-8">
+        <header class="right-sec-head">
+            <div class="arrows">
+                <i class='bx bx-chevron-left '></i>
+                <i class='bx bx-chevron-right '></i>
+            </div>
+            <div class="log-sign ">
+                <a href="#" class="login font-1-2 link-clear">Sign up</a>
+                <a href="#" class="signup font-1-2 link-clear">Log in</a>
+            </div>
+        </header>
+        <div class="playlist-container">
+            <div class="playlist-heading">
+                Rythmix Playlist
+            </div>
+
+            <div class="playlist-box flex-box">
+                <div class="playlist-cards  ">
+                    <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" alt="image of playlist" class="playlist-img">
+                    <h3 class="playlist-name font-1-2 weight-500">Sleep</h3>
+                    <p class="small-grey-txt">Gentle ambient piano to help you fall asleep</p>
+                </div>
+               
+                <div class="playlist-cards  ">
+                    <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" alt="image of playlist" class="playlist-img">
+                    <h3 class="playlist-name font-1-2 weight-500">Sleep</h3>
+                    <p class="small-grey-txt">Gentle ambient piano to help you fall asleep</p>
+                </div>
+
+            </div>
+
+            <!-- //main footer  -->
+            <footer class="right-footer ">
+                <div class="rf-boxes">
+                    <h2 class="font-1-2">Company</h2>
+                    <p><a href="#" class="small-grey-txt link-clear">About</a></p>
+                    <p><a href="#" class="small-grey-txt link-clear">Jobs</a></p>
+                    <p><a href="#" class="small-grey-txt link-clear">For The Record</a></p>
+                </div>
+                <div class="rf-boxes">
+                    <h2 class="font-1-2">Communities</h2>
+                    <p><a href="#" class="small-grey-txt link-clear">For Artist</a></p>
+                    <p><a href="#" class="small-grey-txt link-clear">Developers</a></p>
+                    <p><a href="#" class="small-grey-txt link-clear">Advertising</a></p>
+                    <p><a href="#" class="small-grey-txt link-clear">vender</a></p>
+                </div>
+                <div class="rf-boxes">
+                    <h2 class="font-1-2">Useful links </h2>
+                    <p><a href="#" class="small-grey-txt link-clear">Support</a></p>
+                    <p><a href="#" class="small-grey-txt link-clear">Mobile App</a></p>
+                </div>
+                <div class="rf-social">
+                    <div class="insta"></div>
+                    <div class="facbk"></div>
+                    <div class="linkdn"></div>
+                </div>
+            </footer>
+
+            <div class="copyright">© 2024 By Tarun kumar yaduwanshi</div>
+            
+            <div class="controller-box ">
+                <div class="upper-controller">
+                    <div class="current-song width-500">
+
+                    </div>
+                    <div class="controllers">
+                        <div class="next-song" style="display: inline;"><i class='bx bx-skip-previous music-icons' ></i></div>
+                        <div class="play-pause" style="display: inline;"><i class='bx music-icons bx-pause'></i></div>
+                        <div class="prev-song" style="display: inline;"><i class='bx bx-skip-next music-icons' ></i></div>
+                    </div>
+                    <div class="time-volume width-500">
+                        <span class="time">14:54/33:60</span>
+                        <span class="volume">-----</span>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+
+        </div>
+    </section>
+
+    </main>
+    
+
+<script src="rythmix.js"></script>
+</body>
+</html>

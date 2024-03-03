@@ -1,0 +1,47 @@
+.red-border{
+    border: 2px solid red;
+}
+.flex-box{
+    display: flex;
+}
+.font-1-2{
+    font-size: 1rem;
+}
+.black-bg{
+    background-color: #000000;
+}
+.grey-bg{
+    background-color: #161616ba;
+}
+.br-rd-8{
+    border-radius: 8px;
+}
+.weight-500{
+    font-weight: 500;
+}
+.icon{
+    font-size: 25px;
+}
+.icon-margin{
+    margin-right: 15px;
+}
+.pading-2px{
+    padding: 2px;
+}
+.link-clear{
+    text-decoration: none;
+}
+.small-grey-txt, .foot-text a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #ffffff8e;
+}
+.width-500{
+    width: 300px;
+    color: black;
+    font-weight: 500;
+}
+.music-icons{
+    font-size: 4rem;
+    color: black;
+}
