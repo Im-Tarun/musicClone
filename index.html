@@ -16,9 +16,9 @@
 
         <!-- top box of left aside-->
         <div class="home-container font-1-2 grey-bg br-rd-8">
-            <div class="top-boxes logo-box "><img  src="logo.svg" alt="Rythmix"></div>
-            <div class="top-boxes home-box "><i class='bx icon icon-margin bxs-home'></i><span class="weight-500">Home</span></div>
-            <div class="top-boxes search-box "><i class='bx icon icon-margin bx-search-alt-2' ></i><span class="weight-500">Search</span></div>
+            <div class="top-boxes logo-box pointer"><img  src="logo.svg" alt="Rythmix"></div>
+            <div class="top-boxes home-box pointer"><i class='bx icon icon-margin bxs-home'></i><span class="weight-500">Home</span></div>
+            <div class="top-boxes search-box pointer"><i class='bx icon icon-margin bx-search-alt-2' ></i><span class="weight-500">Search</span></div>
         </div>
 
         <!-- bottom box of left aside -->
@@ -64,8 +64,8 @@
     <section class="page-right-section grey-bg br-rd-8">
         <header class="right-sec-head">
             <div class="arrows">
-                <i class='bx bx-chevron-left '></i>
-                <i class='bx bx-chevron-right '></i>
+                <i class='bx bx-chevron-left poitner'></i>
+                <i class='bx bx-chevron-right pointer'></i>
             </div>
             <div class="log-sign ">
                 <a href="#" class="login font-1-2 link-clear">Sign up</a>
@@ -78,13 +78,13 @@
             </div>
 
             <div class="playlist-box flex-box">
-                <div class="playlist-cards  ">
+                <div class="playlist-cards pointer ">
                     <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" alt="image of playlist" class="playlist-img">
                     <h3 class="playlist-name font-1-2 weight-500">Sleep</h3>
                     <p class="small-grey-txt">Gentle ambient piano to help you fall asleep</p>
                 </div>
                
-                <div class="playlist-cards  ">
+                <div class="playlist-cards pointer ">
                     <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" alt="image of playlist" class="playlist-img">
                     <h3 class="playlist-name font-1-2 weight-500">Sleep</h3>
                     <p class="small-grey-txt">Gentle ambient piano to help you fall asleep</p>
@@ -127,14 +127,21 @@
 
                     </div>
                     <div class="controllers">
-                        <div class="next-song" style="display: inline;"><i class='bx bx-skip-previous music-icons' ></i></div>
-                        <div class="play-pause" style="display: inline;"><i class='bx music-icons bx-pause'></i></div>
-                        <div class="prev-song" style="display: inline;"><i class='bx bx-skip-next music-icons' ></i></div>
+                        <div class="prev-song pointer " style="display: inline;"><i class='bx bx-skip-previous music-icons' ></i></div>
+                        <div class="play-pause pointer " style="display: inline;"><i class='bx music-icons bx-pause'></i></div>
+                        <div class="next-song pointer " style="display: inline;"><i class='bx bx-skip-next music-icons' ></i></div>
                     </div>
                     <div class="time-volume width-500">
-                        <span class="time">14:54/33:60</span>
-                        <span class="volume">-----</span>
+                        <span class="song-time"></span>
+                        <div class="voulume-controller"></div>
+                        
                     </div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="sound-bar-fill"></div>
+                    <div class="progress-control-bar">
+                        <div class="progress-control-handle"></div>
+                      </div>
                 </div>
                 
                 
